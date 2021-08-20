@@ -49,7 +49,7 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: "https://www.instagram.com/codechef/",
+  instagram: "https://www.instagram.com/codechefadgitm/",
   discord: "",
   linkedin: "https://www.linkedin.com/company/codechefadgitm/",
   twitter: "https://mobile.twitter.com/CAdgitm",
