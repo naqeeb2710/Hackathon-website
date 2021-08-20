@@ -68,13 +68,9 @@ git@2.17.1 or higher
 ```
 
 
-1. Clone the repo.
-```bash
-git clone https://github.com/Abusayid693/Type-writer.git
-```
 
 
-2.Starting the Client application.
+Starting the Client application.
 
 ```bash
 cd hackathon-templete 
@@ -88,33 +84,6 @@ npm start
 ```
 `This will start client app on localhost:3000`  
 
-## [Linking Portfolio to your Github]()
-In order to deploy the website in github pages you need to set you few things.
-
-Make sure you are on the root directory.
-```bash
-#remove the remote repository
-git remote rm origin
-
-git remote -v
-```
-
-1. Then create your [own repository on GitHub]() (don't initialise repo with README)
-2. After creating the repository, copy the repo URL.
-
-```bash
-> git remote add origin "YOUR REPO URL" 
-
-# you should see your repo here
-> git remote -v 
-
-# Now you can push/publish it to your own repository!
-git push origin master 
-
-# Wolla! It’s committed to your GitHub repository.
-```
-
-If you are having any difficulties [click here](https://dev.to/dance2die/push-git-cloned-repository-to-your-own-on-github-1ili)
 
 
 
