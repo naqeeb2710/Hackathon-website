@@ -18,6 +18,7 @@ import ACF from "./Assets/sponsorsLogos/ACF.png";
  */
 
 // Importing all Team members images  from Assets
+import naqeeb from "./Assets/teami/naqeeb.jpg";
 import me from "./Assets/teami/me.png";
 import moon from "./Assets/teami/moon.png";
 import Ryah from "./Assets/teami/Ryah.jpg";
@@ -38,23 +39,23 @@ const TOP_SECTION = {
   TITLE: "Join Limbo Hacks",
   Typed_effect: ["24 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
-    "Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.",
+    "Join us on Last Week of September 2021 with over 100+ teams, 400+ students from across the nation for 48 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
     "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
   HACKERS_REGISTRATION_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u"
+    "https://forms.gle/CPLwRc1SyvxLZyhNA"
 };
 
 const SOCIALS = {
-  instagram: "https://www.instagram.com/limbohacks/",
-  discord: "https://discord.com/invite/8XJSzmtWPp",
-  linkedin: "https://www.linkedin.com/company/limbo-hacks/",
-  twitter: "https://twitter.com/HacksLimbo",
+  instagram: "https://www.instagram.com/codechef/",
+  discord: "",
+  linkedin: "https://www.linkedin.com/company/codechefadgitm/",
+  twitter: "https://mobile.twitter.com/CAdgitm",
   devpost: "https://limbo-hacks-12968.devpost.com/",
-  email: "mailto:hello@limbohacks.tech",
-  mail:"hello@limbohacks.tech"
+  email: "mailto:codechefadgitmchapter@gmail.com",
+  mail:"codechefadgitmchapter@gmail.com"
 };
 
 const MIDDLE_SECTION = {
@@ -67,12 +68,12 @@ const MIDDLE_SECTION = {
 
 const FOOTER = {
   VOLUNTEERING_FORM: {
-    required: true,
+    required: false,
     src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u"
   },
   JOIN_TEAM: {
-    required: true,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u"
+    required: false,
+    src: ""
   },
   Privacy_policy: {
     required: true,
@@ -162,11 +163,11 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: "Rehan",
+      Name: "Naqeeb Ahmed",
       role: "Organizer",
       github: "",
       linkedin: "",
-      img: me
+      img: naqeeb
     },
     {
       Name: "Moon",
