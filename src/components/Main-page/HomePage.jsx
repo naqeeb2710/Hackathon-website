@@ -83,7 +83,7 @@ function TeamMembers(props) {
 
 export default function HomePage(props) {
   return (
-    <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
+    <div id="home" className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
       <div className="color_sectiom">
         <Container fluid>
           <Row className="Row info">
@@ -131,7 +131,7 @@ export default function HomePage(props) {
 
         {/* ********Sponsors here ***** */}
 
-        <Row className="sponsorSection">
+        <Row id= "sponsors" className="sponsorSection">
           <SponsorsHead />
           <SponsorUS />
           {sponsorLogos.map(SponsorGroup)}

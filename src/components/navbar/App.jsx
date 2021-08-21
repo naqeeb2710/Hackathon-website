@@ -18,21 +18,34 @@ export default function NAVBAR() {
       <div>
         <nav className="nav_bar">
           <ul>
-            <li>
-              <Link to="/">
+            <li >
+              <a href="#home">
                 <span className="links">Home </span>{" "}
-              </Link>
+              </a>
+            </li>
+            <li >
+              <a href="https://forms.gle/CPLwRc1SyvxLZyhNA">
+                <span className="links">Register </span>{" "}
+              </a>
             </li>
             <li>
-              <Link to="/contact">
-                <span className="links">Sponsors </span>{" "}
-              </Link>
-            </li>
-            <li>
-              <Link to="/projects">
+            <a href="#moreinfo">
                 <span className="links">More info </span>{" "}
-              </Link>
+              </a>
+              
             </li>
+            <li>
+            <a href="#sponsors">
+                <span className="links">Sponsors </span>{" "}
+            </a>
+            </li>
+            <li>
+            <a href="mailto">
+                <span className="links">Contact Us </span>{" "}
+              </a>
+             
+            </li>
+            
           </ul>
           {/* <img className="myLogo" src={logo} /> */}
           {/* <TOGGLE/> */}
