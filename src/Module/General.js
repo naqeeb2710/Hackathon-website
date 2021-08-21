@@ -43,7 +43,7 @@ const TOP_SECTION = {
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
-    "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u",
+    "",
   HACKERS_REGISTRATION_FORM_LINK:
     "https://forms.gle/CPLwRc1SyvxLZyhNA"
 };
