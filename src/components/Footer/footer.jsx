@@ -49,11 +49,11 @@ export default function Footer() {
         </div>
         <div className="Register_a">
           <a href={TOP_SECTION.HACKERS_REGISTRATION_FORM_LINK}>
-            <Btn type="Register" overlay="Fill the form" />
+            <Btn type="Register" overlay="Hackers Registration" />
           </a>
           {FOOTER.VOLUNTEERING_FORM.required && (
             <a href={FOOTER.VOLUNTEERING_FORM.src}>
-              <Btn type="Volunteer" class="Volunteer" overlay="Fill the form" />
+              <Btn type="Mentor" class="Volunteer" overlay="Become The Mentor" />
             </a>
           )}
         </div>
@@ -72,7 +72,7 @@ export default function Footer() {
               target="blank"
               className="privacy-policy"
             >
-              <p>Privacy Policy</p>
+              {/* <p>Privacy Policy</p> */}
             </a>
           )}
           {FOOTER.Terms_of_use.required && (
@@ -82,7 +82,7 @@ export default function Footer() {
               target="blank"
               className="privacy-policy"
             >
-              <p>Terms of Use</p>
+              {/* <p>Terms of Use</p> */}
             </a>
           )}
           <p>Made with ❤️ </p>
