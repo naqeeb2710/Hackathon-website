@@ -7,7 +7,7 @@ import "./about.css";
 import {Logo, LogoSectionAbout} from "../logo-section/logoSection.jsx";
 import {FirstPrize, PrizeHeading} from "../prize tracks/prizes.jsx";
 import {Prizeinfo} from "../../Module/General";
-import {DropDown, QA} from "../FAQ/faq.jsx";
+import {Accordion} from "../FAQ/faq.jsx";
 import {Sponsor, SponsorsHead, SponsorUS} from "../Sponsors/sponsors.jsx";
 
 import Birds from "../Birds/birds.jsx";
@@ -21,7 +21,8 @@ import {
   TeamInfo,
   sponsorLogos,
   frequentlyAskedQuestions,
-  FOOTER
+  FOOTER,
+  panels
 } from "../../Module/General";
 
 // javascript Map for sponsors
@@ -56,19 +57,6 @@ function PrizeGroup(props) {
 }
 
 // Prize group ending
-
-function FrequentlyAskedQuestions(props) {
-  return (
-    <Row className="faqsSection">
-      {props.map(s => (
-        <Col className="" sm={12} lg={6} md={6}>
-          <DropDown q={s.q} ans={s.ans} />
-        </Col>
-      ))}
-    </Row>
-  );
-}
-
 function TeamMembers(props) {
   return (
     <Row className="members">
@@ -81,9 +69,26 @@ function TeamMembers(props) {
   );
 }
 
+
+
+
+function FrequentlyAsked(props) {
+  return (
+    <Row className="sf">
+      {props.map(s => (
+        <Col className="" sm={12} lg={6} md={6}>
+        <Accordion panels={ s }/>
+        </Col>
+      ))}
+    </Row>
+  );
+}
+
+
+
 export default function HomePage(props) {
   return (
-    <div id="home" className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
+    <div className="Whole_div" style={{backgroundImage: `url(${pattern})`}}>
       <div className="color_sectiom">
         <Container fluid>
           <Row className="Row info">
@@ -114,8 +119,10 @@ export default function HomePage(props) {
         </Row>
 
         {/* ********Frequently asked Questions here ***** */}
-        {frequentlyAskedQuestions.map(FrequentlyAskedQuestions)}
+        <div className="Myfaqs">
+        {frequentlyAskedQuestions.map(FrequentlyAsked)}
         {/* ********Frequently asked Questions ending here ***** */}
+         </div>  
 
         {/* ********Prizes here ***** */}
         <Row className="prizesection">
@@ -131,7 +138,7 @@ export default function HomePage(props) {
 
         {/* ********Sponsors here ***** */}
 
-        <Row id= "sponsors" className="sponsorSection">
+        <Row className="sponsorSection">
           <SponsorsHead />
           <SponsorUS />
           {sponsorLogos.map(SponsorGroup)}
