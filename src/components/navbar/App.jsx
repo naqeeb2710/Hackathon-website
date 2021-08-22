@@ -12,68 +12,75 @@ import Linkedin from "../Routes/LinkedIn";
 import Instagram from "../Routes/Instagram";
 import Devpost from "../Routes/Devpost";
 
-export default function NAVBAR() {
-  return (
-    <Router>
-      <div>
-        <nav className="nav_bar">
-          <ul>
-            <li >
-              <a href="#home">
-                <span className="links">Home </span>{" "}
-              </a>
-            </li>
-            <li >
-              <a href="https://forms.gle/CPLwRc1SyvxLZyhNA">
-                <span className="links">Register </span>{" "}
-              </a>
-            </li>
-            <li>
-            <a href="#moreinfo">
-                <span className="links">More info </span>{" "}
-              </a>
-              
-            </li>
-            <li>
-            <a href="#sponsors">
-                <span className="links">Sponsors </span>{" "}
-            </a>
-            </li>
-            <li>
-            <a href="mailto">
-                <span className="links">Contact Us </span>{" "}
-              </a>
-             
-            </li>
-            
-          </ul>
-          {/* <img className="myLogo" src={logo} /> */}
-          {/* <TOGGLE/> */}
-        </nav>
+export default class NAVBAR extends React.Component {
+  state = {
+    color: "#121930"
+  };
+  listenScrollEvent = e => {
+    if (window.scrollY > 800) {
+      this.setState({color: "rgba(50, 13, 136)"});
+    } else {
+      this.setState({color: "#121930"});
+    }
+  };
 
-        {/* Keep parent route at bottom */}
-        <Switch>
-          <Route path="/discord" exact component={Discord} />
-          <Route path="/linkedin" exact component={Linkedin} />
-          <Route path="/devpost" exact component={Devpost} />
-          <Route path="/twitter" exact component={Twitter} />
-          <Route path="/instagram" exact component={Instagram} />
-          <Route path="/contact">
-            <HomePage />
-          </Route>
-          <Route path="/links">
-            <HomePage />
-          </Route>
-          <Route path="/projects">
-            <HomePage />
-          </Route>
-          <Route path="/">
-            <HomePage />
-          </Route>
-        </Switch>
-      </div>
-    </Router>
-  );
+  componentDidMount() {
+    window.addEventListener("scroll", this.listenScrollEvent);
+  }
+
+  render() {
+    return (
+      <Router>
+        <div>
+          <nav className="nav_bar" style={{backgroundColor: this.state.color}}>
+            <ul>
+              <li>
+                <a href="#home">
+                  <span className="links">Home </span>{" "}
+                </a>
+              </li>
+              <li>
+                <a href="https://forms.gle/CPLwRc1SyvxLZyhNA">
+                  <span className="links"> Register </span>{" "}
+                </a>
+              </li>
+              <li>
+                <a href="#moreinfo">
+                  <span className="links">More info </span>{" "}
+                </a>
+              </li>
+              <li>
+                <a href="#sponsors">
+                  <span className="links"> Sponsors</span>
+                </a>
+              </li>
+              
+            </ul>
+          </nav>
+
+          <Switch>
+            <Route path="/discord" exact component={Discord} />
+            <Route path="/linkedin" exact component={Linkedin} />
+            <Route path="/devpost" exact component={Devpost} />
+            <Route path="/twitter" exact component={Twitter} />
+            <Route path="/instagram" exact component={Instagram} />
+            <Route path="/contact">
+              <HomePage />
+            </Route>
+            <Route path="/links">
+              <HomePage />
+            </Route>
+            <Route path="/projects">
+              <HomePage />
+            </Route>
+            <Route path="/">
+              <HomePage />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
+    );
+  }
 }
 
 function Projects() {
