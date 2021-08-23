@@ -27,6 +27,9 @@ import Pravallika from "./Assets/teami/pravallika.jpg";
 import keshav from "./Assets/teami/keshav.jpg";
 import zoha from "./Assets/teami/zoha.png";
 import kk from "./Assets/teami/kk.png";
+import adgitm from "./Assets/teami/adgitm.jpg";
+import codechef from "./Assets/teami/codechef.jpeg";
+
 
 /** Put all your Team member image inside folder `Team Images`
  * and import them like in the above and update src in TeamInfo
@@ -36,8 +39,8 @@ import kk from "./Assets/teami/kk.png";
 import boy from "./Assets/boy.png";
 
 const TOP_SECTION = {
-  TITLE: "Join Limbo Hacks",
-  Typed_effect: ["24 hours of creation", "Win awesome prizes"],
+  TITLE: "Live The Code",
+  Typed_effect: ["48 hours of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on Last Week of September 2021 with over 100+ teams, 400+ students from across the nation for 48 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
@@ -59,9 +62,9 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: "What is Limbo hacks?",
+  TITLE: "What is Live The Code ?",
   LONG_DESCRIPTION:
-    "Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
+    "Live The Code is 48 hour long running hackathon that will be held on last week of september , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Live The Code will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
   LOGO_EFFECT: true,
   LOGO: ""
 };
@@ -163,67 +166,67 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: "Naqeeb Ahmed",
+      Name: "CodeChef ADGITM Chapter",
       role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: codechef
+    },
+    {
+      Name: "Dr. Akhilesh Das Gupta Institute of Technology & Management,",
+      role: "Organizer",
+      github: "",
+      linkedin: "",
+      img: adgitm
+    },
+    {
+      Name: "Naqeeb Ahmed",
+      role: "Website Maintainer",
       github: "",
       linkedin: "",
       img: naqeeb
-    },
-    {
-      Name: "Moon",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: moon
-    },
-    {
-      Name: "Ryah Garcia",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: Ryah
     }
   ],
   [
     //Array 2
-    {
-      Name: "Lyanola",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: lyin
-    },
-    {
-      Name: "Zoheb",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: zoha
-    },
-    {
-      Name: "Karishma",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: kk
-    }
-  ],
-  [
-    //Array 3
-    {
-      Name: "Pravallika",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: Pravallika
-    },
-    {
-      Name: "Keshav",
-      role: "Organizer",
-      github: "",
-      linkedin: "",
-      img: keshav
-    }
+  //   {
+  //     Name: "Lyanola",
+  //     role: "Organizer",
+  //     github: "",
+  //     linkedin: "",
+  //     img: lyin
+  //   },
+  //   {
+  //     Name: "Zoheb",
+  //     role: "Organizer",
+  //     github: "",
+  //     linkedin: "",
+  //     img: zoha
+  //   },
+  //   {
+  //     Name: "Karishma",
+  //     role: "Organizer",
+  //     github: "",
+  //     linkedin: "",
+  //     img: kk
+  //   }
+  // ],
+  // [
+  //   //Array 3
+  //   {
+  //     Name: "Pravallika",
+  //     role: "Organizer",
+  //     github: "",
+  //     linkedin: "",
+  //     img: Pravallika
+  //   },
+  //   {
+  //     Name: "Keshav",
+  //     role: "Organizer",
+  //     github: "",
+  //     linkedin: "",
+  //     img: keshav
+  //   }
   ]
 ];
 
@@ -263,16 +266,16 @@ const frequentlyAskedQuestions  = [
     [
       {
         label: "How to participate?",
-        content: "All you need is to fill our form above and join Discord, we will guide you through everything there"
+        content: "All you need is to fill our form above and we will guide you through everything in email"
       },
       {
         label: "I have more doubts?",
-        content: "Reach us directly at (rehan@limbohacks.tech) we would happy to help you."
+        content: "Reach us directly at (codechefadgitmchapter@gmail.com) we would happy to help you."
       }
       ,
       {
-        label: "Can i volunteer?",
-        content: "Yes we are looking for volunteers, fill the form (in footer section) we would be glad to have you."
+        label: "Can i Mentor",
+        content: "Yes we are looking for mentors, fill the form we would be glad to have you."
       }
       ,
       {
