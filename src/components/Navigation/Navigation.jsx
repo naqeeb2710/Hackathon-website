@@ -13,7 +13,7 @@ const Navigation = props => {
       </div>
       <div className="toolbar__logo">
         <a href="#home">
-          <span>AR</span>BAZ
+          <span>Live The Code</span>
         </a>
       </div>
       <div className="spacer"></div>
@@ -22,20 +22,22 @@ const Navigation = props => {
         {/* <li className="actives"> */}
         <ul>
           <li className="actives">
-            <a href="#home">HOME</a>
+            <a href="#home">
+              <span>Home</span>
+            </a>
           </li>
           <li>
-            <a href="#about">ABOUT</a>
+            <a href="https://forms.gle/CPLwRc1SyvxLZyhNA">Register</a>
           </li>
           <li>
-            <a href="#experience">EXPERIENCE</a>
+            <a href="#moreinfo">More Info</a>
           </li>
           <li>
-            <a href="#work">WORK</a>
+            <a href="#sponsors">Sponsors</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#contact">CONTACT</a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

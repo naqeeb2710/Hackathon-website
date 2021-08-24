@@ -22,57 +22,57 @@ const SideDrawer = (props) => {
 
       <ul>
         <li>
-          <FontAwesomeIcon
+          {/* <FontAwesomeIcon
             icon={faHome}
             className={`home-icons mr-2`}
-          />{" "}
+          />{" "} */}
           <a
             href="#home"
             onClick={props.click}
           >
-            HOME
+            <span>Home</span>
           </a>
         </li>
         <li>
-          {" "}
+          {/* {" "}
           <FontAwesomeIcon
             icon={faUser}
             className={`home-icons mr-3`}
-          />
+          /> */}
           <a
-            href="#about"
+            href="https://forms.gle/CPLwRc1SyvxLZyhNA"
             onClick={props.click}
-          >
-            ABOUT
+          ><span>Register</span>
+
           </a>
         </li>
         <li>
-          {" "}
+          {/* {" "}
           <FontAwesomeIcon
             icon={faHistory}
             className={`home-icons mr-3`}
-          />
+          /> */}
           <a
-            href="#experience"
+            href="#moreinfo"
             onClick={props.click}
           >
-            EXPERIENCE
+           <span> More Info</span>
           </a>
         </li>
         <li>
-          {" "}
+          {/* {" "}
           <FontAwesomeIcon
             icon={faBriefcase}
             className={`home-icons mr-3`}
-          />
+          /> */}
           <a
-            href="#work"
+            href="#sponsors"
             onClick={props.click}
           >
-            WORK
+           <span>Sponsors</span>
           </a>
         </li>
-        <li>
+        {/* <li>
           {" "}
           <FontAwesomeIcon
             icon={faIdCard}
@@ -82,9 +82,9 @@ const SideDrawer = (props) => {
             href="#contact"
             onClick={props.click}
           >
-            CONTACT
+           spa CONTACT
           </a>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

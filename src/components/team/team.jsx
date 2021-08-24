@@ -21,10 +21,13 @@ function Member(props) {
       <div className="members-link">
         <h3>{props.name}</h3>
         <p>{props.role}</p>
-        <a>
-          <i class="fab fa-2x fa-github"></i>
+        <a href={props.instagram}>
+          
+          <i class="fab fa-2x fa-instagram"></i>
+          
         </a>
-        <a>
+        <a href="{props.linkedin}">
+          
           <i class="fab fa-2x fa-linkedin"></i>
         </a>
       </div>

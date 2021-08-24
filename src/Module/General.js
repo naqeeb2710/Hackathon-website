@@ -168,15 +168,15 @@ const TeamInfo = [
     {
       Name: "CodeChef ADGITM Chapter",
       role: "Organizer",
-      github: "",
-      linkedin: "",
+      instagram: "https://www.instagram.com/codechefadgitm/",
+      linkedin: "https://www.linkedin.com/company/codechefadgitm/",
       img: codechef
     },
     {
       Name: "Dr. Akhilesh Das Gupta Institute of Technology & Management,",
       role: "Organizer",
-      github: "",
-      linkedin: "",
+      instagram: "https://www.instagram.com/adgitmdelhi/",
+      linkedin: "https://www.linkedin.com/school/northern-india-engineering-college/",
       img: adgitm
     },
     // {
