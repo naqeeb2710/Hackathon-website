@@ -28,11 +28,11 @@ export default function Media() {
           <i class="fab fa-3x fa-twitter"></i>
         </a>
       </div>
-      <div className="single">
+      {/* <div className="single">
         <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>
           <i class="fab fa-3x fa-dev"></i>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 }

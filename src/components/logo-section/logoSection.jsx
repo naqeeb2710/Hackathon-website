@@ -5,6 +5,8 @@ import sym from "./sym.png";
 import logo1 from "./logo4.png";
 import logo2 from "./logo2.png";
 import logo3 from "./logo3.png";
+import LIMBO from "./LIMBO.png";
+import livethecode from "./livethecode.png"
 
 import {MIDDLE_SECTION} from "../../Module/General";
 
@@ -31,8 +33,8 @@ function Logo() {
   } else {
     myLogo = (
       <div className="logoS">
-        <img className="Logo sym" src={sym} alt="Limbohacks" />
-        <img className="Logo logo1" src={logo1} alt="Limbohacks" />
+        {/* <img className="Logo sym" src={sym} alt="Limbohacks" /> */}
+        <img className="Logo logo1" src={livethecode} alt="Limbohacks" />
       </div>
     );
   }

@@ -27,7 +27,7 @@ import Pravallika from "./Assets/teami/pravallika.jpg";
 import keshav from "./Assets/teami/keshav.jpg";
 import zoha from "./Assets/teami/zoha.png";
 import kk from "./Assets/teami/kk.png";
-import adgitm from "./Assets/teami/adgitm.jpg";
+import adgitm from "./Assets/teami/adgitm.jpeg";
 import codechef from "./Assets/teami/codechef.jpeg";
 
 
@@ -65,8 +65,8 @@ const MIDDLE_SECTION = {
   TITLE: "What is Live The Code ?",
   LONG_DESCRIPTION:
     "Live The Code is 48 hour long running hackathon that will be held on last week of september , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Live The Code will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.",
-  LOGO_EFFECT: true,
-  LOGO: ""
+  LOGO_EFFECT: false,
+  LOGO: "https://drive.google.com/file/d/1ljJxdnX9YBiWNI5hBGG18Iy2dbn2sOPa/view?usp=sharing"
 };
 
 const FOOTER = {
@@ -122,38 +122,38 @@ const Prizeinfo = [
         "Best third overall project of the hackathon will win some awesome prizes"
     }
   ],
-  [
-    //Array 2
-    {
-      icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: "Best Solo",
-      content:
-        "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team"
-    },
-    {
-      icon: <i class="first fas fa-4x fa-trophy"></i>,
-      type: " Best Beginner",
-      content: "Your project will qualify for this category if atleast 50% "
-    },
-    {
-      icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
-      type: "Best UI/UX",
-      content: "Project with most creative designs will be UI/UX track"
-    }
-  ],
-  [
-    //Array 3
-    {
-      icon: <i class="fas fa-4x sixth fa-male"></i>,
-      type: "Best Web App with Qoom",
-      content: "Must use qoom in your project to win this category"
-    },
-    {
-      icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
-      type: "More prizes",
-      content: "More prizes will be revealed later"
-    }
-  ]
+  // [
+  //   //Array 2
+  //   {
+  //     icon: <i class="fab fourth fa-3x fa-wpbeginner"></i>,
+  //     type: "Best Solo",
+  //     content:
+  //       "You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team"
+  //   },
+  //   {
+  //     icon: <i class="first fas fa-4x fa-trophy"></i>,
+  //     type: " Best Beginner",
+  //     content: "Your project will qualify for this category if atleast 50% "
+  //   },
+  //   {
+  //     icon: <i class=" fifth fa-3x fas fa-book-open"></i>,
+  //     type: "Best UI/UX",
+  //     content: "Project with most creative designs will be UI/UX track"
+  //   }
+  // ],
+  // [
+  //   //Array 3
+  //   {
+  //     icon: <i class="fas fa-4x sixth fa-male"></i>,
+  //     type: "Best Web App with Qoom",
+  //     content: "Must use qoom in your project to win this category"
+  //   },
+  //   {
+  //     icon: <i class="fas fa-user-friends seventh fa-3x "></i>,
+  //     type: "More prizes",
+  //     content: "More prizes will be revealed later"
+  //   }
+  // ]
 ];
 
 /** Instructions
@@ -179,13 +179,13 @@ const TeamInfo = [
       linkedin: "",
       img: adgitm
     },
-    {
-      Name: "Naqeeb Ahmed",
-      role: "Website Maintainer",
-      github: "",
-      linkedin: "",
-      img: naqeeb
-    }
+    // {
+    //   Name: "Naqeeb Ahmed",
+    //   role: "Website Maintainer",
+    //   github: "",
+    //   linkedin: "",
+    //   img: naqeeb
+    // }
   ],
   [
     //Array 2
