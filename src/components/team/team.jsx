@@ -26,7 +26,7 @@ function Member(props) {
           <i class="fab fa-2x fa-instagram"></i>
           
         </a>
-        <a href="{props.linkedin}">
+        <a href={props.linkedin}>
           
           <i class="fab fa-2x fa-linkedin"></i>
         </a>

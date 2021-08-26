@@ -40,13 +40,13 @@ import boy from "./Assets/boy.png";
 
 const TOP_SECTION = {
   TITLE: "Live The Code",
-  Typed_effect: ["48 hours of creation", "Win awesome prizes"],
+  Typed_effect: ["Weeks of creation", "Win awesome prizes"],
   SHORT_DESCRIPTION:
     "Join us on Last Week of September 2021 with over 100+ teams, 400+ students from across the nation for 48 hours of creation, innovation, & fun.",
   IMG_SRC: boy,
   DISCORD_LINK: "",
   JUDGES_FORM_LINK:
-    "",
+    "https://docs.google.com/forms/d/e/1FAIpQLScYiyGKouI3cffX8sUcbJyFfy6_IS44yKoajJdsZTC9DuxkMg/viewform?usp=sf_link",
   HACKERS_REGISTRATION_FORM_LINK:
     "https://forms.gle/CPLwRc1SyvxLZyhNA"
 };
@@ -72,7 +72,7 @@ const MIDDLE_SECTION = {
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u"
+    src: "https://docs.google.com/forms/d/e/1FAIpQLScYiyGKouI3cffX8sUcbJyFfy6_IS44yKoajJdsZTC9DuxkMg/viewform?usp=sf_link"
   },
   JOIN_TEAM: {
     required: false,
@@ -237,10 +237,10 @@ const TeamInfo = [
  */
 
 const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
+  // [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
+  // [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
+  // [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
+  // [{src: egg}, {src: ll}, {src: ACF}] //Array 4
 ];
 
 const frequentlyAskedQuestions  = [
